@@ -53,13 +53,13 @@ You can easily customize the blog by modifying `_config.yml`:
 
 ```yml
 # Site settings
-title: Hux Blog             # title of your website
-SEOTitle: Hux Blog          # check out docs for more detail
-description: "Cool Blog"    # ...
+title: 码而无惑             # title of your website
+SEOTitle: 码而无惑          # check out docs for more detail
+description: " MyBlog"    # ...
 
 # SNS settings      
-github_username: huxpro     # modify this account to yours
-weibo_username: huxpro      # the footer woule be auto-updated.
+github_username: javabo1     # modify this account to yours
+weibo_username: javabo1      # the footer woule be auto-updated.
 
 # Build settings
 paginate: 10                # nums of posts in one page
@@ -74,7 +74,7 @@ Most of them are very descriptive so feel brave to dive into code directly as we
 Posts are simply just Markdown files in the `_posts/`. 
 Metadata of posts are listed in a YAML style _front-matter_.
 
-For instance, [Hello 2015])(https://huangxuan.me/2015/01/29/hello-2015/) has the front-matter of this:
+For instance, [Hello 2015])(http://gou.sqtxq.top/2015/01/29/hello-2015/) has the front-matter of this:
 
 ```yml
 ---
@@ -103,7 +103,7 @@ This command will automatially generate a sample post similar as above under the
 
 There are a bunch of _advanced_ configs:
 
-1. a _text style_ header like [this](https://huangxuan.me/2019/09/08/spacemacs-workflow/) with
+1. a _text style_ header like [this](http://gou.sqtxq.top/2019/09/08/spacemacs-workflow/) with
 
 ```yml
 header-style: text 
@@ -126,7 +126,7 @@ Etc.
 
 ### SideBar
 
-![](http://huangxuan.me/img/blog-sidebar.jpg)
+![](http://gou.sqtxq.top/img/blog-sidebar.jpg)
 
 **SideBar** provides possible modules to show off more personal information.
 
@@ -183,7 +183,7 @@ friends: [
 
 ### Keynote Layout
 
-![](http://huangxuan.me/img/blog-keynote.jpg)
+![](http://gou.sqtxq.top/img/blog-keynote.jpg)
 
 There is a increased trend to use Open Web technology for keynotes and presentations via Reveal.js, Impress.js, Slides, Prezi etc. I consider a modern blog should have first-class support to embed these HTML based presentation so **Keynote layout** are made.
 
@@ -192,7 +192,7 @@ To use, in the **front-matter**:
 ```yml
 ---
 layout:     keynote
-iframe:     "http://huangxuan.me/js-module-7day/"
+iframe:     "http://gou.sqtxq.top/js-module-7day/"
 ---
 ```
 
@@ -318,7 +318,7 @@ Shout out to [@kitian616/jekyll-TeXt-theme](https://github.com/kitian616/jekyll-
 
 - Big Improvement to the **Navigation Menu** *(especially in Android)*:  Dropping the old, stuttering, low-performance [Bootstrap collapse.js](http://getbootstrap.com/javascript/#collapse),  replaced with an own wrote, [jank free](http://jankfree.org/) navbar menu in a pretty high-performance implementation of [Google Material Design](https://www.google.com/design/spec/material-design/introduction.html).
 
-<img src="http://huangxuan.me/img/blog-md-navbar.gif" width="320" />
+<img src="http://gou.sqtxq.top/img/blog-md-navbar.gif" width="320" />
 
 
 #### V1.2
